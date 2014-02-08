@@ -1,1 +1,1 @@
-{"functions": [{"name": "heat_1d_np", "vars": ["x", "y"], "calls": []}]}
+{"functions": [{"name": "heat", "vars": ["x", "y"], "calls": []}]}
