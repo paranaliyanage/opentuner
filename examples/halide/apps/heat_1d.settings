@@ -1,0 +1,3 @@
+{"input_size": "1024, 1024",
+ "functions": [{"name": "input",  "vars": ["x", "y"], "calls": []},
+               {"name": "heat", "vars": ["x", "y"], "calls": ["input"]}]}
