@@ -1,1 +1,6 @@
-{"functions": [{"name": "heat", "vars": ["x", "y"], "calls": []}]}
+{"functions": [{"name": "clamped_0", "vars": ["x"], "calls": []},
+				{"name": "heat_0", "vars": ["x"], "calls": ["clamped_0"]},
+				{"name": "clamped_1", "vars": ["x"], "calls": ["heat_0"]},
+				{"name": "heat_1", "vars": ["x"], "calls": ["clamped_1"]},
+				{"name": "clamped_2", "vars": ["x"], "calls": ["heat_1"]},
+				{"name": "heat_2", "vars": ["x"], "calls": ["clamped_2"]}]}
